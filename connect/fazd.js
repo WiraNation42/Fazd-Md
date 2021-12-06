@@ -23,7 +23,7 @@ const moment = require("moment-timezone")
 const { color } = require("../lib/color")
 const { exec } = require("child_process")
 sph = "き⃟🌹"
-fake = "Fazd-bot created by Ardy"
+fake = "X7-Botz Created by Wira"
 
 let setting = JSON.parse(fs.readFileSync("./setting.json"))
 let mess = JSON.parse(fs.readFileSync('./connect/mess.json'));
@@ -128,13 +128,13 @@ var buatpesan = await generateWAMessageFromContent(from, {
           {
             "urlButton": {
               "displayText": "Github Owner",
-              "url": "https://github.com/ArdyBotzz"
+              "url": "https://github.com/WiraNation42"
             }
           },
           {
             "callButton": {
               "displayText": "Call Owner",
-              "phoneNumber": "6287863200063"
+              "phoneNumber": "6285271588014"
             }
           },
           {
@@ -319,8 +319,9 @@ await sendButton5(from, menunya, fake, await fazd.createMessage(from, {image: {u
 
 case "donasi":
 fazd.sendMessage(from, {text: `${sph}  Donasi
-*Gopay* : _08813647351_
-*Dana* : _08813647351_
+*Pulsa* : _085271588014_
+*Dana* : _085271588014_
+*Saweria* : _https://saweria.co/YTMGTWIRA420_
 ${sph}  Donasi Seikhlas Nya`, quoted: msg})
 break
 
